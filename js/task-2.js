@@ -12,6 +12,7 @@ firstArray (масив), secondArray (масив) і maxLength (число).
 */
 
 'use strict';
+console.log('\nTask-2');
 
 function makeArray(firstArray, secondArray, maxLength) {
   const newArray = firstArray.concat(secondArray).slice(0, maxLength);

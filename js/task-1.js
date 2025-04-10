@@ -12,6 +12,8 @@
 
 'use strict';
 
+console.log('\nTask-1');
+
 function slugify(title) {
   const slug = title.trim().toLowerCase().split(' ').join('-').toString();
   return slug;
