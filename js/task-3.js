@@ -16,6 +16,20 @@
 Поверни свій новий масив з підходящими числами як результат.
 
 */
+'use strict';
+
+console.log('\nTask-3');
+
+function filterArray(numbers, value) {
+  const filteredArray = [];
+  for (const number of numbers) {
+    if (number > value) {
+      filteredArray.push(number);
+    }
+  }
+
+  return filteredArray;
+}
 
 console.log(filterArray([1, 2, 3, 4, 5], 3)); // [4, 5]
 console.log(filterArray([1, 2, 3, 4, 5], 4)); // [5]
